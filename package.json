@@ -1,9 +1,9 @@
 {
   "scripts": {
     "watch": "tsc -w",
-    "dev": "nodemon --inspect public/index.js",
+    "dev": "nodemon --inspect dist/index.js",
     "build": "tsc",
-    "start": "node public/index.js"
+    "start": "node dist/index.js"
   },
   "name": "it-incubator-course",
   "version": "1.0.0",
